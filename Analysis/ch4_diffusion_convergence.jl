@@ -178,7 +178,7 @@ xlim = xlims(p2)
 Δt_ref = range(1.2 * ΔTs[1], 0.8 * ΔTs[end], length=100);
 ref_line_time = ΔTs[end]^-2.0 * 0.8 * RMS_time[end] .* (Δt_ref .^ 2.0);
 plot!(p2, Δt_ref, ref_line_time, linewidth=3,
-    label=abel=L"\mathcal{O}(\Delta t)^2",
+    label=L"\mathcal{O}(\Delta t)^2",
     linestyle=:dash, xlims=xlim, ylims=ylim)
 
 savefig(p2, joinpath(plots_dir(), "diffusion_temporal_convergence.pdf"))
