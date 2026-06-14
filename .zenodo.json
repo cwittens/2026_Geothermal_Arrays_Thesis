@@ -1,0 +1,13 @@
+{
+    "license": "MIT",
+    "title": "Reproducibility repository for \"Three-Dimensional Modeling of Deep Borehole Heat Exchanger Arrays\"",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "Institute of Mathematics, Johannes Gutenberg University Mainz, 55099 Mainz, Germany",
+            "name": "Wittenstein, Collin",
+            "orcid": "0009-0006-8591-278X"
+        }
+    ],
+    "access_right": "open"
+}
